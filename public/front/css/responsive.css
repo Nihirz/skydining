@@ -1,0 +1,202 @@
+@media only screen and (max-width:1270px){
+    .container {
+        width: 100% !important;
+    }
+    .logo{
+        opacity: 0.1
+    }
+}
+
+@media only screen and (max-width:991px){
+    .logo img {
+        max-width: 200px;
+    }
+    .nav {
+        margin-top: 10px;
+    }
+    .services_box {
+        min-height: unset;
+        margin-bottom: 30px;
+    }
+    .why-choose {
+        margin-bottom: 30px;
+    }
+    .fresh-section {
+        padding: 20px 0;
+    }
+    .fresh-section .inner-fresher {
+        grid-template-columns: 1fr;
+    }
+
+    .about-us {
+        margin: 40px 0;
+    }
+    .about-us .row {
+        display: grid;
+    }
+    .about-us .row .col-md-7 {
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .about-us .col-md-5:after {
+        left: 25px;
+        right: 6px;
+    }
+    .gallery-sec {
+        margin: 50px 0;
+    }
+    .gallery-imgs ul{
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width:959px){
+    .main-header {
+        background: #fff;
+    }
+    header {
+        position: unset;
+    }
+    .nav-button, .nav-close {
+        position: absolute;
+    }
+    .carousel-inner img {
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .fresh-section .fr-inner {
+        grid-template-columns: 1fr;
+    }
+    .fresh-section .inner-fresher {
+        grid-template-columns: 1fr 7fr;
+        margin-bottom: 15px;
+    }
+    .fresh-section .inner-fresher img {
+        max-width: 60px;
+    }
+    .fr-text {
+        padding-left: 10px;
+    }
+    footer .top-footer {
+        margin-top: 40px;
+    }
+    .bottom-footer {
+        padding: 30px 0 0 0;
+    }
+    .bottom-footer ul li {
+        margin: 0 10px;
+    }
+    .gallery-imgs ul{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:639px){
+    footer .top-footer .footer-top {
+        grid-template-columns: 1fr;
+        padding: 25px 0;
+    }
+    .footer-inner {
+        border-right: none;
+        padding: 20px 0;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+    }
+    .footer-inner ul {
+        margin-bottom: 0;
+    }
+    .footer-inner h3 {
+        margin-top: 0;
+    }
+    .bottom-footer .bottom-logo img {
+        max-width: 200px;
+    }
+    .bottom-footer ul {
+        margin: 20px 0 10px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bottom-footer ul li {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .copyright {
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:545px){
+    .services_box {
+        padding-bottom: 5px;
+    }
+    .services_box img {
+        max-width: 50px;
+        margin: 0px 0 10px 0;
+    }
+    .services_box strong {
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    .services_box p {
+        font-size: 12px;
+    }
+    .fresh-section .fr-text h3 {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fresh-section .inner-fresher {
+        margin-bottom: 10px;
+    }
+
+    .custom-heading h1, .custom-heading h2 {
+        font-size: 20px;
+    }
+    .elementor-divider-separator:before, .elementor-divider-separator:after {
+        width: 70px;
+    }
+
+    .about-left p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-right iframe {
+        height: 200px;
+    }
+
+    .book-table {
+        height: 250px;
+        padding: 60px 0;
+    }
+    .book-table h3 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .book-table p {
+        font-size: 14px;
+    }
+    .bottom-footer ul {
+        grid-template-columns: 1fr;
+    }
+    .gallery-imgs ul {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .gallery-sec,
+    .gallery-imgs ul {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width:369px){
+    .book-table h3 {
+        font-size: 20px;
+    }
+    .custom-button a {
+        font-size: 14px;
+    }
+}
